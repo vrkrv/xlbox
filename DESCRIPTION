@@ -1,0 +1,20 @@
+Package: xlbox
+Title: Simple export of standard R objects to xlsx
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Vladimir",
+           family = "Korovin",
+           role = c("aut", "cre"),
+           email = "vladimir.korovin@gfk.com")
+Description: Provide fast, simple and customizable xlsx export on top of `openxlsx` package, based on simple nested list structure.  
+License: MIT
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Imports: 
+    openxlsx,
+    purrr
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
